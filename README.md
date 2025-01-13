@@ -17,10 +17,11 @@ The detector is based on the MMrotate and MMdetection frameworks. For installati
 [MMdetection](https://github.com/open-mmlab/mmdetection)
 
 ## Fine-tuning
-You can use the following two methods to load a pre-trained model.Due to differences in framework versions, please check the logs to make sure the model is loaded correctly.
+You can use the following three methods to load a pre-trained model.Due to differences in framework versions, please check the logs to make sure the model is loaded correctly.
 ```python
 1. model.backbone.pretrained = MDCL.pth
 2. load_from = MDCL.pth
+3. model.backbone.init_cfg.checkpoint = MDCL.pth
 ```
 
 ## Test
