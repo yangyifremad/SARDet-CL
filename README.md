@@ -1,4 +1,5 @@
-# Efficient Self-supervised Learning for SAR Aircraft Target Detection: Introducing Scattering Features and Imaging Mechanisms
+# MDCL: Multi-Dimensional Self-Supervised Contrastive Learning Guided by SAR Imaging Mechanism for Aircraft Target Detection
+
 This project aims to improve the performance of SAR target detection tasks by introducing a self-supervised pre-trained model MDCL.In this repository, we provide the detection code built for this project and a pre-trained backbone for Gaofen-3 satellite data to the community. The self-supervised pre-trained model can be easily obtained, fine-tuned and tested on a range of other downstream tasks.
 ## Pretrained models
 We provide a pre-trained ResNet50 backbone network trained by MDCL for comparison and testing in subsequent research.
