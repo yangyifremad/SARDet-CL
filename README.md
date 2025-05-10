@@ -41,5 +41,5 @@ python tools/test.py ${ori_rcnn_config.py} ${CHECKPOINT_FILE_by_Fine-tuning} [op
   year={2025},
   keywords={Feature extraction;Radar polarimetry;Object detection;Aircraft;Optical sensors;Optical imaging;Linear programming;Synthetic aperture radar;Remote sensing;Imaging;self-supervised learning;aircraft target detection;synthetic aperture radar;pretext task;objective function},
   doi={10.1109/TGRS.2025.3568041}}
-```python
+```
 
