@@ -31,3 +31,15 @@ You can use the following command to infer the dataset.
 ```python
 python tools/test.py ${ori_rcnn_config.py} ${CHECKPOINT_FILE_by_Fine-tuning} [optional arguments]
 ```
+
+## Citation
+```python
+@ARTICLE{10994283,
+  author={Yang, Yi and Lei, Zhengxin and Mo, Xiuci and Lu, Da and Jia, Hecheng and Wang, Haipeng},
+  journal={IEEE Transactions on Geoscience and Remote Sensing}, 
+  title={SARDet-CL: Self-Supervised Contrastive Learning with Feature Enhancement and Imaging Mechanism Constraints for SAR Target Detection}, 
+  year={2025},
+  keywords={Feature extraction;Radar polarimetry;Object detection;Aircraft;Optical sensors;Optical imaging;Linear programming;Synthetic aperture radar;Remote sensing;Imaging;self-supervised learning;aircraft target detection;synthetic aperture radar;pretext task;objective function},
+  doi={10.1109/TGRS.2025.3568041}}
+```python
+
